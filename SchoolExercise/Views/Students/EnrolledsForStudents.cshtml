@@ -11,6 +11,9 @@
         <th>
            Classes
         </th>
+        <th>
+            Grade
+        </th>
         <th></th>
     </tr>
 
@@ -18,6 +21,9 @@
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Class.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grade)
             </td>
         </tr>
     }
